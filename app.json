@@ -1,0 +1,16 @@
+{
+  "name": "com.joaovitor.shishapedia",
+  "displayName": "Shishapedia",
+  "expo": {
+    "name": "Shishapedia",
+    "slug": "shishapedia",
+    "version": "0.0.1",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.joaovitor.shishapedia"
+    }
+  }
+}
