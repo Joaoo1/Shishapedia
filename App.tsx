@@ -1,9 +1,10 @@
-import React from 'react';
-
 import Navigator from './src/routes';
+import AppProvider from './src/hooks';
 
 export default function App() {
   return (
-    <Navigator />
+    <AppProvider>
+      <Navigator />
+    </AppProvider>
   );
 }

@@ -1,0 +1,41 @@
+const dark = {
+  accent: '#00C857',
+  primary: '#1c1c1c',
+  lightPrimary: '#383838',
+  buttonBackground: '#00C857',
+  buttonText: '#ffffff',
+  text: '#edebeb',
+  systemText: '#edebeb',
+  whiteText: '#edebeb',
+  inputBorder: '#E6E6F0',
+  inputBackground: '#0d0d0d',
+  divider: '#fafafa',
+  listDivider: 'rgba(0, 0, 0, 0.15)',
+  imageGrayBackground: '#292929',
+  inputPlaceholderText: '#c1bccc',
+  white: '#030303',
+  black: '#ffffff',
+  unreadNotification: '#303030',
+};
+
+const light = {
+  accent: '#24EF7F',
+  primary: '#8257E5',
+  lightPrimary: '#C2ABF7',
+  buttonBackground: '#24EF7F',
+  buttonText: '#ffffff',
+  text: 'rgba(0,0,0,0.78)',
+  systemText: '#ffffff',
+  whiteText: '#ffffff',
+  inputBorder: '#E6E6F0',
+  inputBackground: '#FAFAFC',
+  divider: '#c9c9c9',
+  listDivider: 'rgba(0, 0, 0, 0.15)',
+  imageGrayBackground: 'rgba(218,218,218,0.6)',
+  inputPlaceholderText: '#c1bccc',
+  white: '#ffffff',
+  black: '#000000',
+  unreadNotification: '#e5e5e5',
+};
+
+export default { dark, light };

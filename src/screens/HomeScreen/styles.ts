@@ -12,4 +12,4 @@ const Title = styled.Text`
   font-size: 32px;
 `;
 
-export {Container, Title};
+export { Container, Title };
