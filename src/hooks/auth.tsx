@@ -10,7 +10,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import messaging from '@react-native-firebase/messaging';
 import crashlytics from '@react-native-firebase/crashlytics';
 
-import api from '../../services/api';
+import api from '../services/api';
 
 export type User = {
   id: string;

@@ -2,8 +2,8 @@ import { createContext, useState, useContext, useEffect } from 'react';
 import { ToastAndroid } from 'react-native';
 import crashlytics from '@react-native-firebase/crashlytics';
 
-import { useAuth } from '../auth';
-import api from '../../services/api';
+import { useAuth } from './auth';
+import api from '../services/api';
 
 type NotificationContextProps = {
   unreadNotifications: number;
